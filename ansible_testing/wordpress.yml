@@ -1,4 +1,4 @@
-- hosts: security_jenkins_webserver_dmz
+- hosts: security_group_jenkins_webserver_dmz
   become: true
   tasks:
   - name: Removing previous code
